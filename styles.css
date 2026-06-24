@@ -1,0 +1,208 @@
+#title {
+  background-color: #40513B;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+
+h1 {
+  font-family: 'Indie flower', cursive;
+  font-weight:bold;
+  font-size: 4.5rem;
+  line-height: 1.5;
+  color: #EDF1D6;
+}
+
+h2 {
+  font-family: 'Indie flower', cursive;
+  font-weight:bold;
+  font-size: 3.3rem;
+  color: #EDF1D6;
+}
+
+h3 {
+  font-family: 'indie Flower', cursive;
+  font-weight: bold;
+  font-size: 3rem;
+  color: #609966;
+}
+
+p {
+  color:rgb(95, 121, 95);
+  font-family: 'Kalam', cursive;
+}
+
+
+/*Nav bar */
+.navbar {
+  padding: 0 0 2rem;
+}
+
+.navbar-brand {
+  font-family: 'Pixelify Sans', sans-serif;
+  font-size: 5rem;
+  font-weight: bold;
+}
+
+.navbar-item {
+  padding:0 50px;
+}
+
+.nav-link {
+  font-family: 'Indie flower', cursive;
+  font-size: 2rem;
+}
+
+
+/*download buttons*/
+.download-button {
+  margin: 7% 5% 7% 0;
+}
+
+/*images */
+.title-image{
+  width: 50%;
+  transform:rotate(25deg);
+  z-index: 1;
+  position: absolute;
+}
+
+/*features*/
+
+#features {
+  padding: 7% 10%;
+  background-color: #EDF1D6;
+  z-index: 2;
+  position: relative;
+}
+
+.feature-box {
+  text-align: center;
+  font-family: 'Kalam', cursive;
+  font-size: 2rem;
+  padding: 5%;
+  background-color: #EDF1D6;
+}
+
+.icon {
+  color:rgb(10, 83, 59);
+  margin-bottom: 2.5rem;
+}
+
+.icon:hover {
+  color:#FFB000;
+}
+
+/*testimonials sect*/
+
+#testimonials {
+  text-align: center;
+  background-color: #40513B;
+  
+}
+
+.carousel-item {
+  padding: 7% 18% ; 
+}
+
+.testimonial-image {
+  width: 20%;
+  border-radius: 50%;
+  margin: 10px;
+}
+
+em {
+  font-family:'Kalam', cursive;
+  font-weight: bold;
+  color:#FFB000;
+  
+}
+
+#press {
+  background-color: #40513B;
+  text-align: center;
+}
+
+.press-logo {
+  width: 8%;
+  margin: 30px 30px 40px;
+}
+
+/*Pricing*/
+
+#pricing {
+  padding: 60px;
+  text-align: center;
+  background-color: #EDF1D6;
+}
+
+.price-header {
+  color:#40513B;
+  margin-bottom: 2.5rem;
+}
+.price-sub {
+  color: #609966;
+  font-size: 25px;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.card-header {
+  background-color:#609966;
+}
+
+.card-body {
+  background-color: #9DC08B;
+}
+
+.price-names {
+  color:  #EDF1D6;
+  font-weight: bolder;
+}
+
+.price-benefits {
+  color: #F4EEEE;
+  font-family: 'Kalam', cursive;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+/* cta */
+
+#cta {
+  background-color: #40513B;
+  padding: 4% 10%;
+  text-align: center;
+}
+
+.cta-header {
+  color: #EDF1D6;
+ font-weight: bold;
+  font-size: 5rem;
+}
+
+
+#footer {
+ padding: 7% 13%;
+ text-align: center;
+ background-color: #EDF1D6;
+}
+
+.social-media {
+  margin: 20px 10px;
+  
+}
+
+@media (max-width: 1028px) {
+  #title{
+    text-align: center;
+  }
+  .title-image{
+    position: static;
+    transform: rotate(0);
+  }
+}
